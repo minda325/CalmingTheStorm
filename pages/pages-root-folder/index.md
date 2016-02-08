@@ -10,6 +10,7 @@ header:
   image_fullwidth: FB_IMG_1454878233202.jpg
 widget1:
   title: "Blog & Portfolio"
+  url: 'http://minda325.github.io/LivingWithoutDoubt/blog/'
   image: widget-1-302x182.jpg
   text: 'Every <em>awesome good blog</em> website has a blog with fresh news, and activities. '
 widget2:
