@@ -7,13 +7,11 @@
 #   /____/_/\__/\___/   /____/\___/\__/\__/_/_/ /_/\__, /____/
 #                                                 /____/
 #
-highlighter: rouge
-
-
 # Title of your website
 title: 'Living Without Doubt'
+
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: ''
+slogan: 'My Slogan'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: ''
@@ -23,16 +21,16 @@ credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with 
 
 # Main author of the website
 # See > authors.yml
-author: Melinda Roberson
+author: Melinda
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'http://minda325.github.io/CalmingTheStorm'
+url: 'http://minda325.github.io/LivingWithoutDoubt'
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/minda325/CalmingTheStorm/edit/gh-pages
+improve_content: http://minda325.github.io/LivingWithoutDoubt/edit/gh-pages
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
@@ -40,7 +38,7 @@ improve_content: https://github.com/minda325/CalmingTheStorm/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://github.com/minda325/CalmingTheStorm/images/'
+urlimg: 'http://minda325.github.io/LivingWithoutDoubt/images/'
 
 
 # Logo size is 600x80 pixels
@@ -59,7 +57,6 @@ logo: 'LWD_logo.jpg'
 gems:
     - jekyll-gist
     - jekyll-paginate
-#    - wdm, '~> 0.1.0' if Gem.win_platform?
 paginate: 5                      # Paginates all X entries
 paginate_path: "blog/page:num"   # Pagination path › Important for blog page in /blog/ to work
 
@@ -115,7 +112,7 @@ defaults:
       show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: Melinda     # Default author for pages
+      author: melinda     # Default author for pages
   -
     scope:
       path: ''
@@ -124,7 +121,7 @@ defaults:
       show_meta: true   # Show metadata for all posts
       sidebar: true       # Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: phlow     # Default author for posts
+      author: melinda     # Default author for posts
 
 
 
@@ -181,11 +178,10 @@ msapplication_tilecolor:                '#fabb00'
 #   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
 
 og_image:                           'http://images.phlow.de/phlow/phlow_de-logo-512x.png'
-# og_image:							'https://s3.amazonaws.com/melinda-blog/images/IMG_20150926_104307.jpg'
-# og_image: 'FB_IMG_1454878233202.jpg'
 og_locale:                          'en_EN'
 og_type:                            'website'
-
+# og_image:							'https://s3.amazonaws.com/melinda-blog/images/IMG_20150926_104307.jpg'
+# og_image: 'FB_IMG_1454878233202.jpg'
 
 #      _____            _       __   __  ___         ___
 #     / ___/____  _____(_)___ _/ /  /  |/  /__  ____/ (_)___ _
